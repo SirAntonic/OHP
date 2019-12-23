@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "ohp",
+  "version": "${version}",
+
+  "name": "100%",
+  "description": "This mod simply put, adds 100% of everything missing.",
+  "authors": [
+    "Antonic"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/ohp/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.antonic.ohp.main"
+    ]
+  },
+  "mixins": [
+
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.2",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}

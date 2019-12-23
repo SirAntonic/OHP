@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "ohp:item/spruce_armor_stand"
+  }
+}
