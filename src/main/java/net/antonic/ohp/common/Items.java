@@ -1,5 +1,6 @@
 package net.antonic.ohp.common;
 
+import net.antonic.ohp.item.woodBowItem;
 import net.minecraft.item.FoodComponents;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
@@ -10,11 +11,11 @@ public class Items {
 
     //Bows
 
-    public static final Item SPRUCE_BOW = register("spruce_bow", new Item(new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item BIRCH_BOW = register("birch_bow", new Item(new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item DARK_OAK_BOW = register("dark_oak_bow", new Item(new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item JUNGLE_BOW = register("jungle_bow", new Item(new Item.Settings().group(ItemGroup.COMBAT)));
-    public static final Item ACACIA_BOW = register("acacia_bow", new Item(new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item SPRUCE_BOW = register("spruce_bow", new woodBowItem(new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item BIRCH_BOW = register("birch_bow", new woodBowItem(new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item DARK_OAK_BOW = register("dark_oak_bow", new woodBowItem(new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item JUNGLE_BOW = register("jungle_bow", new woodBowItem(new Item.Settings().group(ItemGroup.COMBAT)));
+    public static final Item ACACIA_BOW = register("acacia_bow", new woodBowItem(new Item.Settings().group(ItemGroup.COMBAT)));
 
     //Bow Pulling 0
 

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " AS",
+    "A S",
+    " AS"
+  ],
+  "key": {
+  "A": {
+  "item": "ohp:acacia_stick"
+},
+    "S": {
+    "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ohp:acacia_bow",
+    "count": 1
+  }
+
+}

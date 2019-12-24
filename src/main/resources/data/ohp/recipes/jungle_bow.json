@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " JS",
+    "J S",
+    " JS"
+  ],
+  "key": {
+  "J": {
+  "item": "ohp:jungle_stick"
+},
+    "S": {
+    "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ohp:jungle_bow",
+    "count": 1
+  }
+
+}

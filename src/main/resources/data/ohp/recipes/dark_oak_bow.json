@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " DS",
+    "D S",
+    " DS"
+  ],
+  "key": {
+  "D": {
+  "item": "ohp:dark_oak_stick"
+},
+    "S": {
+    "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ohp:dark_oak_bow",
+    "count": 1
+  }
+
+}

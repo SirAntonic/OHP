@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " BS",
+    "B S",
+    " BS"
+  ],
+  "key": {
+  "B": {
+  "item": "ohp:birch_stick"
+},
+    "S": {
+    "item": "minecraft:string"
+    }
+  },
+  "result": {
+    "item": "ohp:birch_bow",
+    "count": 1
+  }
+
+}

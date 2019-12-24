@@ -1,0 +1,6 @@
+{
+  "parent": "item/bow",
+  "textures": {
+    "layer0": "ohp:item/acacia_bow_pulling_0"
+  }
+}
